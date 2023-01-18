@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Trip</title>
     <link rel="stylesheet" href="./css/animate.css">
-    <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="container--pink">
+        <div class="container--light">
             <div class="hero">
                 <div class="hero__menu">
-                    
-
                     <nav class="hero__navigation">
                         <ul class="hero__list">
                             <li>
@@ -28,37 +27,116 @@
                             <li>
                                 <a href="" class="hero__link">Hotel</a>
                             </li>
-                            <li>
-                                <a href="" class="hero__link">Kontact</a>
-                            </li>
+
                         </ul>
+                        <div class="hero__contact">
+                            <a href="" class="hero__link">Kontact</a>
+                        </div>
                     </nav>
                 </div>
-                <div class="hero__header">
-                    <a href="/" class="logo">
-                        <svg >
-                    </a>
-                    <button type="button" class="button--white">Rezerwuj teraz!
-                        <svg class="hero__btn-icon">
-                            <use href=""></use>
-                        </svg>
-                    </button>
-                </div>
-                <div class="hero__list">
-                    <ul class="hero__informations">
+                <svg class="ornament__line" >
+                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke: #fff;stroke-width:6" />
+                </svg>
+            </div>
+            <div class="header">
+                <img src='./img/logo-header.png' alt="Logo" class= 'header__logo'>
+                <button type="button" class="button--white">Rezerwuj teraz!
+                </button>
+            </div>
+            <svg
+            <div class="header__list">
+                <ul class="header__informations">
                     <li>
-                        <a href="" class="hero__info">Program</a>
+                        <a href="" class="header__info">Program</a>
                     </li>
                     <li>
-                        <a href="" class="hero__info">Terminy</a>
+                        <a href="" class="header__info">Terminy</a>
                     </li>
                     <li>
-                        <a href="" class="hero__info">Kadra</a>
+                        <a href="" class="header__info">Kadra</a>
                     </li>
                 </ul>
-                </div>
+            </div>
+<!--    ASIDE    -->
+<aside class="sidebar">
+    <div class="sidebar__about">
+
+    </div>
+</aside>
 
     </header>
 
+<!--    MAIN    -->
 
+    <main>
+
+
+
+</main>
+<!--    FOOTER    -->
+
+<footer class="section section--dark">
+    <div class="container--dark">
+        <div class="footer">
+            
+            <address class="footer__address" id="contact">
+                <p class="footer__paragraf">m. Warszawa, Aleje Jerozolimskie 21</p>
+                <p class="footer__paragraf">
+                    <a href="mailto:info@devstudio.com" class="footer__mail">info@devstudio.com</a>
+                </p>
+                <p class="footer__paragraf">
+                    <a href="tel:+48111111111" class="footer__phone">+48 111 111 111</a>
+                </p>
+            </address>
+        </div>
+        <div class="social__footer">
+            <h3 class="social-title">DOŁĄCZ DO NAS</h3>
+            <ul class="social">
+                <li class="social__item">
+                    <a class="social__link social__link--dark" href="#">
+                        <svg class="social__icon">
+                            <use href="./images/svg/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--dark" href="#">
+                        <svg class="social__icon">
+                            <use href="./images/svg/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--dark" href="#">
+                        <svg class="social__icon">
+                            <use href="./images/svg/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+
+                    <a class="social__link social__link--dark" href="#">
+                        <svg class="social__icon">
+                            <use href="./images/svg/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="send">
+            <form class="send__form">
+                <label for="user_email" class="send__title">Zapisz się do newslettera</label>
+                <div class="send__box">
+                    <input class="send__input" type="email" name="email" id="user_email" placeholder="E-mail" />
+                    <button type="submit" class="button">
+                        Zapisz się
+                        <svg class="send__icon">
+                            <use href="./images/svg/send.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>
 </body>
