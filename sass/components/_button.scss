@@ -1,0 +1,16 @@
+.button{
+    &--white{
+        width: auto;
+        height: auto;
+        padding:15px;
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: var(--darkBeige);
+        border-radius: 25px;
+        border: 5px var(--darkBeige) solid;
+        color: var(--lightFont);
+        font-family: Raleway;
+        font-size: 35px;
+    }
+}

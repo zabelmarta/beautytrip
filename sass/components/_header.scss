@@ -1,0 +1,36 @@
+.header{
+flex-direction: column;
+display: flex;
+justify-content: center;
+
+    &__logo{
+        width: auto;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+
+    &__list{
+margin-top: 20px;
+    }
+
+    &__informations{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+        padding: 0;
+        gap: 70px;
+    }
+
+    &__info{
+        text-decoration: none;
+            border: 1px #e7d3c2 solid;
+            padding: 15px;
+                border-radius: 12px;
+                background-color: #e7d3c2;
+        color: var(--darkBeige);
+        font-size: 25px;
+        font-family: Raleway;
+    }
+}
