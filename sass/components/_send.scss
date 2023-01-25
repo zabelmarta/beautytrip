@@ -1,0 +1,36 @@
+.send {
+    &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--lightFont);
+    margin-bottom: 20px;
+    }
+
+    &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 12px;
+    }
+
+    &__input {
+    width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2787px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px var(--dropShadow));
+    border-radius: 4px;
+    background-color: var(--colorLight);
+    color:var(--colorLight);
+    }
+
+    &__icon{
+    width: 24px;
+    height: 24px;
+    }
+}
