@@ -2,20 +2,28 @@
   --darkBeige: #5d5759;
   --lightBackground: #fff;
   --lightFont: #fff;
-  --beige: rgb(231, 211, 194);
+  --beige: #e7d3c2;
   --lightFont: #fff;
   --fontOpacity: rgba(231, 211, 194, 0.6);
 }
 
+body {
+  background-image: url(background.png);
+  background-repeat: repeat;
+}
+
 .container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0px auto;
+  display: flex;
+  margin: 30px auto;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  color: rgb(92, 88, 87);
 }
 .container--light {
   display: flex;
   flex-direction: column;
-  background-color: var(--lightBackground);
 }
 .container--dark {
   background: var(--beige);
@@ -26,14 +34,29 @@
   padding-right: 20px;
 }
 
-.button--white {
+.button {
   width: auto;
   height: auto;
   padding: 35px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -200px;
-  background-color: #efa492;
+  margin-top: 0px;
+}
+.button--orange {
+  margin-right: 0px;
+  background-color: #e19683;
+  border-radius: 25px;
+  border: 5px var(--darkBeige) solid;
+  color: var(--lightFont);
+  font-family: Raleway;
+  font-size: 35px;
+}
+.button__list {
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.button--dark {
+  background-color: #333333;
   border-radius: 25px;
   border: 5px var(--darkBeige) solid;
   color: var(--lightFont);
@@ -55,9 +78,8 @@
 .header__list {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 100px;
   padding-top: 80px;
-  padding-bottom: 80px;
   background: #E19683;
 }
 .header__informations {
@@ -76,6 +98,26 @@
   color: var(--darkBeige);
   font-size: 25px;
   font-family: Raleway;
+}
+.header__button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -350px;
+  margin-right: 100px;
+}
+.header__tittle, .header__date {
+  color: var(--darkBeige);
+  font-size: 30px;
+  font-weight: bold;
+  gap: 0;
+  margin: auto;
+}
+.header__date {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .hero {
@@ -105,6 +147,65 @@
   color: var(--darkBeige);
   font-size: 25px;
   font-family: Raleway;
+}
+
+.about__tittle {
+  color: #5D5957;
+  font-size: 30px;
+}
+.about__img {
+  width: 500px;
+}
+.about__dear {
+  width: 300px;
+}
+
+.program {
+  font-size: 30px;
+  background-color: #FAF4EF;
+  box-shadow: 0 0 20px 10px rgba(92, 88, 87, 0.3019607843);
+}
+.program__tittle {
+  font-size: 60px;
+}
+.program__date {
+  font-size: 50px;
+}
+.program__price {
+  font-size: 50px;
+}
+.program__list {
+  font-size: 40px;
+}
+.program__item {
+  font-size: 30px;
+}
+.program__end {
+  margin-bottom: 50px;
+}
+
+.hotel {
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.hotel__text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.hotel__tittle {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.hotel__img {
+  width: 100%;
+  height: auto;
+}
+.hotel__link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .social {
@@ -221,4 +322,8 @@
   height: 6px;
   width: 100%;
   margin-top: -30px;
+}
+
+.line {
+  margin-top: -10px;
 }/*# sourceMappingURL=main.css.map */

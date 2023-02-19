@@ -1,17 +1,34 @@
 .button{
-    &--white{
         width: auto;
         height: auto;
         padding: 35px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -200px;
+        margin-top: 0px;
 
-        background-color: #F8CED0;
+    &--orange{
+margin-right: 0px;
+
+        background-color: #e19683;
         border-radius: 25px;
         border: 5px var(--darkBeige) solid;
         color: var(--lightFont);
         font-family: Raleway;
         font-size: 35px;
     }
+
+    &__list{
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    &--dark{
+background-color: #333333;
+        border-radius: 25px;
+        border: 5px var(--darkBeige) solid;
+        color: var(--lightFont);
+        font-family: Raleway;
+        font-size: 35px;
+    }
+
 }

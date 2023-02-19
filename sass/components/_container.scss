@@ -1,13 +1,18 @@
 .container {
-    width: 100%;
-    padding: 0 15px;
-    margin: 0px auto;
 
+    display: flex;
+    margin: 30px auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+color: rgb(92, 88, 87);
 
 &--light {
     display: flex;
 flex-direction: column;
-    background-color: var(--lightBackground);
+
+
 }
 
 &--dark{
