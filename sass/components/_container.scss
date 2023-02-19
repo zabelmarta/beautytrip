@@ -16,10 +16,12 @@ flex-direction: column;
 }
 
 &--dark{
+    margin: auto;
+    max-width: 1590px;
     background: var(--beige);
     display: flex;
-    justify-content: space-around;
-    padding-top: 80px;
+    justify-content: space-evenly;
+    padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
         }

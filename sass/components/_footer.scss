@@ -1,23 +1,26 @@
 .footer{
 display: flex;
 gap:70px;
+max-width: 1200px;
 
     &__address {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--lightBackground);
+    color: rgb(92, 88, 87);
+
     margin: 0px;
 }
 
     &__logo{
         width: 250px;
-        margin-top: -60px;
+        height: auto;
+        margin-top: -50px;
     }
 
     &__mail {
-    color: var(--fontLight);
-    text-decoration: none;
+        color: rgb(92, 88, 87);
+        text-decoration: none;
     }
 
     &__mail:hover,
@@ -28,8 +31,8 @@ gap:70px;
 
 
     &__phone {
-    color: var(--lightFont);
-    text-decoration: none;
+        color: rgb(92, 88, 87);
+        text-decoration: none;
 }
 
     &__phone:hover,
