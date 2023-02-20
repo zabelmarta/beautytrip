@@ -57,7 +57,6 @@ body {
   color: var(--lightFont);
   font-family: Raleway;
   font-size: 35px;
-  color: var(--darkBeige);
 }
 .button__list {
   margin-right: auto;
