@@ -227,6 +227,18 @@ body {
   margin-bottom: 50px;
 }
 
+.agenda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.agenda__img {
+  max-width: 1600px;
+}
+
 .social {
   list-style: none;
   display: flex;
