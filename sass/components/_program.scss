@@ -1,9 +1,31 @@
-.program{
-display: flex;
-flex-direction: column;
+.program {
+    font-size: 30px;
+    background-color: #FAF4EF;
+    box-shadow: 0 0 20px 10px #5c58574d;
+}    
 
-&__tittle{
-    
-}
-__
-}
+.program__tittle {
+font-size: 60px;
+    }
+
+    .program__date{
+font-size: 50px;
+    }
+
+
+
+    .program__price{
+font-size: 50px;
+    }
+
+    .program__list{
+font-size: 40px;
+    }
+
+    .program__item{
+font-size: 30px;
+    }
+
+    .program__end{
+        margin-bottom: 50px;
+    }
