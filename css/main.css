@@ -345,9 +345,10 @@ body {
   margin: 0px;
 }
 .footer__logo {
-  width: 250px;
+  width: 200px;
   height: auto;
-  margin-top: -50px;
+  /**margin-top: -50px;**/
+  margin-bottom: 50px;
 }
 .footer__mail {
   color: rgb(92, 88, 87);
