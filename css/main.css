@@ -11,6 +11,7 @@ body {
   background-image: url(./img/background.png);
   background-attachment: fixed;
   background-position: center;
+  font-family: "Roboto";
 }
 
 .body__hotel {
@@ -116,10 +117,8 @@ body {
 .header__tittle, .header__date {
   color: var(--darkBeige);
   font-size: 30px;
-  font-weight: bold;
   gap: 0;
   margin: auto;
-  font-family: math;
 }
 .header__date {
   font-size: 40px;
@@ -294,8 +293,9 @@ body {
 .social__footer {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 30px;
 }
 
 .send__title {
