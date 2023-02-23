@@ -334,6 +334,7 @@ body {
   display: flex;
   gap: 70px;
   max-width: 1200px;
+  font-family: roboto;
 }
 .footer__address {
   font-size: 20px;
