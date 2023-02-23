@@ -216,10 +216,29 @@
             </div>
         </div>
 
-        <!-- HOTEL -->
+        <!-- Formularz kontaktowy
 
 
 
+        <form class="form" id="contactForm" method="post" action="./send-script.php">
+            <div class="form-row">
+                <label for="name">Imię (min. 3 znaki)*</label>
+                <input type="text" name="name" required pattern=.{3,} id="name" data-error-text="Wypełnij to pole">
+            </div>
+            <div class="form-row">
+                <label for="email">Email*</label>
+                <input type="email" name="email" required id="email" data-error-text="Wpisz poprawny email">
+            </div>
+            <div class="form-row">
+                <label for="message">Wiadomość*</label>
+                <textarea name="message" required data-error-text="Musisz wypełnić pole" id="message"></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="submit-btn">
+                    Wyślij
+                </button>
+            </div>
+        </form> -->
 
     </main>
     <!--    FOOTER    -->
@@ -295,6 +314,6 @@
     -->
         </div>
     </footer>
-
+<script src="./js/form.js"></script>
     <script src="./js/mobile-menu.js"></script>
 </body>
