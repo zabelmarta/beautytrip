@@ -41,115 +41,73 @@
                             </li>
                         </ul>
                         <div class="hero__contact">
-                            <a href="" class="hero__link">Kontakt</a>
+                            <a href="index.html#contact" class="hero__link">Kontakt</a>
                         </div>
                     </nav>
 
-
-                    <!--    mobile menu   -->
-
-                    <div class="mobile-menu">
-                        <button class="mobile-menu__button" type="button" data-mobile-open>
-                            <svg class="mobile-menu__icon">
-                                <use href="./img/svg/mobile-menu.svg#icon-mobile-menu"></use>
-
-                            </svg>
-                        </button>
-                    </div>
-                    <svg class="ornament__line">
-                    <line x1="0" y1="0" x2="100%" y2="0" style="stroke: #fff;stroke-width:6" />
-                </svg>
                 </div>
-                <!--    MOBILE MENU    -->
-
-
-                <div class="mobile is-hidden" data-mobile>
-                    <div class="container mobile__modal">
-                        <button class="mobile__btn" type="button" data-mobile-close>
-                            <svg class="mobile__icon">
-                                <use href="./img/svg/mobile-menu.svg#icon-mobile-icon"></use>
-                            </svg>
-                        </button>
-
-
-                        <div class="mobile__menu">
-                            <nav class="mobile__navigation">
-                                <ul class="mobile__list">
-                                    <li>
-                                        <a href="index.html" class="mobile__link ">Agencja</a>
-                                    </li>
-                                    <li>
-                                        <a href="portfolio.html" class="mobile__link">Portfolio</a>
-                                    </li>
-                                    <li><a href="" class="mobile__link">Kontakt</a></li>
-                                </ul>
-                            </nav>
-                            <div class="mobile__contacts">
-                                <div class="mobile__phone">
-                                    <a class="mobile__phone" href="tel:+48111111111">+48 111 111 111</a>
-                                </div>
-                                <div class="mobile__mail">
-                                    <a class="mobile__mail" href="mailto:info@devstudio.com">info@devstudio.com
-                                    </a>
-                                </div>
-                                <ul class="mobile__socials">
-                                    <li class="mobile__insta-box mobile__social">
-                                        <a href="" class="mobile__insta">Instagram</a>
-                                    </li>
-                                    <li class="mobile__social">
-                                        <a href="" class="mobile__twitter">Twitter</a>
-                                    </li>
-                                    <li class="mobile__social">
-                                        <a href="" class="mobile__fb">Facebook</a>
-                                    </li>
-                                    <li class="mobile__social ">
-                                        <a href="" class="mobile__linkedin">LinkedIn</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                
             </div>
-            <div class="header">
-                <img src='./img/header-logo.png' alt="Logo" class='header__logo'>
-                <div class="header__button">
-                    <div>
-                        <tittle class="header__tittle">
-                            Najbliższy termin:</tittle>
-                    </div>
-                    <div>
-                        <p class="header__date"> 14.04-16.04.2023r</p>
-                    </div>
+        </div>
 
-                    <button type="button" class="button button--orange">Zapisz się!
+
+
+
+        <!-- Header -->
+
+
+        <div class="header">
+            <img src='./img/header-logo.png' alt="Logo" class='header__logo'>
+            <img src="./img/logo-footer.png" alt="logo" class="mobile__logo">
+            <div class="header__button">
+                <div>
+                    <tittle class="header__tittle">
+                        Najbliższy termin:</tittle>
+                </div>
+
+                <div>
+                    <p class="header__date"> 14.04-16.04.2023r</p>
+                </div>
+
+                <button type="button" class="button button--orange">Zapisz się!
+                </button>
+            </div>
+
+
+
+            <!-- Mobile menu -->
+
+            <div id="wrapper">
+                <div id="header">
+                    <button id="menu-button">
+                        <svg class="menu__btn">
+                            <use href="./img/svg/menu.svg#icon-menu"></use>
+                        </svg>
                     </button>
+
+
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html" class="menu__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html#about" class="menu__link">O nas</a>
+                        </li>
+                        <li>
+                            <a href="location.html" class="menu__link">Hotel</a>
+                        </li>
+                        <li>
+                            <a href="program.html" class="menu__link">Program</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="header__list">
-                <!-- <ul class="header__informations">
-                    <li>
-                        <a href="" class="header__info">Program</a>
-                    </li>
-                    <li>
-                        <a href="" class="header__info">Terminy</a>
-                    </li>
-                    <li>
-                        <a href="" class="header__info">Kadra</a>
-                    </li>
-                </ul>-->
-
-            </div>
-            <svg class="ornament__line line">
-                <line x1="0" y1="0" x2="100%" y2="0" style="stroke: #fff;stroke-width:6" />
-            </svg>
         </div>
-        </div>
+        <div class="header__list">
 
+        </div>
+        <svg class="ornament__line line">
+            <line x1="0" y1="0" x2="100%" y2="0" style="stroke: #fff;stroke-width:6" />
+        </svg>
     </header>
 
     <!--    MAIN    -->
@@ -162,20 +120,16 @@
         <div class="section__about">
             <div class="container">
                 <div class="about__tittle" id="about">
-                    <img src="./img/dear.png" alt="Dear Ladies" class="about__dear">
-                    <p> Chcę Was zabrać w pełne uroku miejsce, oddalone zaledwie 35 km od Poznania, gdzie spędzicie
-                        aktywnie czas,
-                        spotkacie się z dietetykiem, weźmiecie udział w warsztatach niespodzianka, a przede wszystkim
-                        będziecie miały czas na
-                        zapoznanie się.</p>
-                    <p>Beauty Trip to kompletna oferta, która łączy ze sobą fitness, towarzystwo, zdrowe jedzenia i
-                        Relaks przez duże R.
-                        Poczujecie się w pełni zaopiekowane.
+                    <img src="./img/hello.png" alt="Dear Ladies" class="about__dear">
+                    <p> Mam na imię Weronika, z pasji do sportu i pięknych miejsc powstał projekt Weekend dla Kobiet.
                     </p>
-                    <p> W cenie : nocleg, wyżywienie, transport, zajęcia fitness, spotkania z gośćmi oraz
-                        integracja.</p>
+                    <p> Moim celem jest zebranie grupy Kobiet, które są gotowe podjąć wyzwanie zdrowego odżywiania i
+                        smukłej sylwetki. Zdaję sobie sprawę jak ciężko jest zacząć dlatego z wielką chęcią pokaże Wam
+                        jak wskoczyć na właściwe tory.</p>
+                    <p> Przygotowałam szereg zajęć fitness, zaprosiłam doradców i razem z firmą cateringową ułożyłam
+                        listę zbilansowanych posiłków. Kolejny krok należy do Was.</p>
                 </div>
-                <img src="./img/gimnastic.png" alt="Weronika Kędzierska" class="about__img">
+                <img src="./img/gimnastic (2).png" alt="Weronika Kędzierska" class="about__img">
             </div>
         </div>
 
@@ -216,6 +170,7 @@
             </div>
         </div>
 
+
         <!-- Formularz kontaktowy
 
 
@@ -240,11 +195,13 @@
             </div>
         </form> -->
 
+
+
     </main>
     <!--    FOOTER    -->
 
     <footer>
-        <div class="container--dark">
+        <div class="container--dark" id="contact">
             <div class="footer">
                 <img src="./img/logo-footer.png" class="footer__logo" alt="LOGO">
                 <address class="footer__address" id="contact">
@@ -262,58 +219,36 @@
             <div class="social__footer">
                 <h3 class="social-title">DOŁĄCZ DO NAS</h3>
                 <ul class="social">
-                    <!-- 
-                <li class="social__item">
-                    <a class="social__link social__link--dark" href="#">
-                        <svg class="social__icon">
-                            <use href="./img/svg/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                     
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link--dark" href="#">
-                        <svg class="social__icon">
-                            <use href="./img/svg/icons.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>-->
                     <li class="social__item">
-                        <a class="social__link social__link--dark" href="https://www.facebook.com/profile.php?id=100089711855617" target="_blank">
+                        <a class="social__link social__link--dark"
+                            href="https://www.facebook.com/profile.php?id=100089711855617" target="_blank">
                             <svg class="social__icon">
                                 <use href="./img/svg/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                   
-                <li class="social__item">
 
-                    <a class="social__link social__link--dark" href="https://wa.me/48606350107?text=Jestem%20zainteresowana%20wyjazdem%20na%20Weekend%20dla%20Kobiet.%20Proszę o%20kontakt" target="_blank">
-                        <svg class="social__icon">
-                            <use href="./img/svg/whatsapp.svg#icon-whatsapp"></use>
-                        </svg>
-                    </a>
-                </li>
+                    <li class="social__item">
+
+                        <a class="social__link social__link--dark"
+                            href="https://wa.me/48606350107?text=Jestem%20zainteresowana%20wyjazdem%20na%20Weekend%20dla%20Kobiet.%20Proszę o%20kontakt"
+                            target="_blank">
+                            <svg class="social__icon">
+                                <use href="./img/svg/whatsapp.svg#icon-whatsapp"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <!--
-        <div class="send">
-            <form class="send__form">
-                <label for="user_email" class="send__title">Zapisz się do newslettera</label>
-                <div class="send__box">
-                    <input class="send__input" type="email" name="email" id="user_email" placeholder="E-mail" />
-                    <button type="submit" class="button">
-                        Zapisz się
-                        <svg class="send__icon">
-                            <use href="./images/svg/send.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                </div>
-            </form>
-        </div>
-    -->
+
         </div>
     </footer>
-<script src="./js/form.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+
+    <!-- Java Script -->
+
+
+    <script src="./js/form.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="./js/menu.js"></script>
+
 </body>

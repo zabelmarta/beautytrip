@@ -4,6 +4,7 @@ display: flex;
 justify-content: center;
 
 
+
     &__logo{
         width: auto;
         margin-left: 0;
@@ -61,4 +62,30 @@ background: #E19683;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+}
+
+
+@media screen and (max-width: 1199px){
+    .header__tittle,
+    .header__date{
+        display: none;
+    }
+
+    .header__button{
+        position: relative;
+        bottom: -170px;
+        right: -50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+.header__button{
+    display: none;
+}
+
+.header__logo{
+    display: none;
+}
+
 }
