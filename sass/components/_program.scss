@@ -5,12 +5,11 @@
 }    
 
 
-
-
 @media screen and (max-width: 767px){
 
-    .pragram{
+    .program{
         margin-left: 0px;
+        text-align: center;
     }
     .program__tittle {
         font-size: 35px;
@@ -31,6 +30,7 @@
         
             .program__list{
         font-size: 35px;
+        text-align: left;
             }
         
             .program__item{
