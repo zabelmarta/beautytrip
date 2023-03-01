@@ -9,3 +9,10 @@
 .line{
     margin-top: -10px;
 }
+
+@media screen and (max-width: 767px){
+
+    .ornament__line{
+        display: none;
+    }
+}

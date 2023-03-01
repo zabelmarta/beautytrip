@@ -14,3 +14,21 @@ width: 500px;
         width: 300px;
     }
 }
+
+@media screen and (max-width: 767px){
+
+    .about__img{
+        display: none;
+    }
+
+    .about__dear{
+        margin-left: 25%;
+    }
+
+    .about__tittle{
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 20px;
+    }
+
+}

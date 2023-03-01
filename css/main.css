@@ -146,6 +146,9 @@ body {
   .header__logo {
     display: none;
   }
+  .header__list {
+    display: none;
+  }
 }
 .hero {
   background-color: var(--beige);
@@ -192,6 +195,19 @@ body {
   width: 300px;
 }
 
+@media screen and (max-width: 767px) {
+  .about__img {
+    display: none;
+  }
+  .about__dear {
+    margin-left: 25%;
+  }
+  .about__tittle {
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 20px;
+  }
+}
 .hotel {
   align-items: center;
   margin-top: 100px;
@@ -223,35 +239,58 @@ body {
 }
 
 .program {
-  font-size: 30px;
   background-color: #FAF4EF;
   box-shadow: 0 0 20px 10px rgba(92, 88, 87, 0.3019607843);
 }
 
-.program__tittle {
-  font-size: 60px;
+@media screen and (max-width: 767px) {
+  .pragram {
+    margin-left: 0px;
+  }
+  .program__tittle {
+    font-size: 35px;
+  }
+  .program__date {
+    font-size: 50px;
+  }
+  .program__time {
+    font-size: 20px;
+    width: 60%;
+  }
+  .program__price {
+    font-size: 50px;
+  }
+  .program__list {
+    font-size: 35px;
+  }
+  .program__item {
+    font-size: 20px;
+  }
+  .program__end {
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
 }
-
-.program__date {
-  font-size: 50px;
+@media screen and (min-width: 768px) {
+  .program__tittle {
+    font-size: 60px;
+  }
+  .program__date {
+    font-size: 50px;
+  }
+  .program__price {
+    font-size: 50px;
+  }
+  .program__list {
+    font-size: 40px;
+  }
+  .program__item {
+    font-size: 30px;
+  }
+  .program__end {
+    margin-bottom: 50px;
+  }
 }
-
-.program__price {
-  font-size: 50px;
-}
-
-.program__list {
-  font-size: 40px;
-}
-
-.program__item {
-  font-size: 30px;
-}
-
-.program__end {
-  margin-bottom: 50px;
-}
-
 .agenda {
   display: flex;
   flex-direction: column;
@@ -318,6 +357,11 @@ body {
   margin-top: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .social__footer {
+    display: none;
+  }
+}
 .send__title {
   font-weight: 700;
   font-size: 20px;
@@ -391,26 +435,29 @@ body {
 }
 
 #menu {
+  background-color: var(--beige);
+  border: 2px #5d5759 solid;
+}
+
+#menu-list {
   list-style: none;
   padding: 0;
   width: 50%;
-  background-color: var(--beige);
-  border: 2px black solid;
 }
 
-#menu li {
+#menu-list li {
   float: left;
   display: block;
   padding: 0 1%;
 }
 
-#menu li a {
+#menu-list li a {
   text-decoration: none;
-  color: #222;
+  color: #5d5759;
 }
 
 @media screen and (min-width: 766px) {
-  #menu {
+  #menu-list {
     display: none;
   }
   .mobile__logo {
@@ -421,14 +468,17 @@ body {
   }
 }
 @media screen and (max-width: 765px) {
-  #menu {
-    display: flex;
+  #menu-list {
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-  #menu li {
+  #menu-list li {
     padding: 5% 0;
     justify-content: center;
     font-size: 20px;
@@ -437,19 +487,73 @@ body {
   #menu-button {
     display: block;
     border: none;
-    fill: #000;
+    fill: #5d5759;
     background: transparent;
   }
   #wrapper {
-    position: relative;
-    top: 30px;
-    left: 30px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
   }
   .menu__btn {
     width: 50px;
     height: 50px;
   }
 }
+.social-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+
+.social-menu__link {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: var(--lightBackground);
+}
+.social-menu__link:hover, .social-menu__link:focus {
+  fill: var(--lightBackground);
+  background-color: var(--beige);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-menu__link--dark {
+  background-color: #e19683;
+  fill: var(--lightBackground);
+}
+
+.social-menu__icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.social-menu-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgb(92, 88, 87);
+  margin: auto;
+}
+
+.social-menu__footer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 30px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -619,4 +723,10 @@ body {
 
 .line {
   margin-top: -10px;
+}
+
+@media screen and (max-width: 767px) {
+  .ornament__line {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

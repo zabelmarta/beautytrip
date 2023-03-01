@@ -1,31 +1,76 @@
 .program {
-    font-size: 30px;
+    
     background-color: #FAF4EF;
     box-shadow: 0 0 20px 10px #5c58574d;
 }    
 
-.program__tittle {
-font-size: 60px;
+
+
+
+@media screen and (max-width: 767px){
+
+    .pragram{
+        margin-left: 0px;
     }
-
-    .program__date{
-font-size: 50px;
+    .program__tittle {
+        font-size: 35px;
+            }
+        
+            .program__date{
+        font-size: 50px;
+            }
+        
+        .program__time{
+            font-size: 20px;
+            width: 60%;
+        }
+        
+            .program__price{
+        font-size: 50px;
+            }
+        
+            .program__list{
+        font-size: 35px;
+            }
+        
+            .program__item{
+        font-size: 20px;
+            }
+        
+            .program__end{
+                margin-bottom: 50px;
+                font-size: 35px;
+            }
     }
+    
 
 
+    @media screen and (min-width: 768px){
 
-    .program__price{
-font-size: 50px;
-    }
+        .program__tittle {
+            font-size: 60px;
+                }
+            
+                .program__date{
+            font-size: 50px;
+                }
+            
+            
+            
+                .program__price{
+            font-size: 50px;
+                }
+            
+                .program__list{
+            font-size: 40px;
+                }
+            
+                .program__item{
+            font-size: 30px;
+                }
+            
+                .program__end{
+                    margin-bottom: 50px;
+                }
 
-    .program__list{
-font-size: 40px;
-    }
-
-    .program__item{
-font-size: 30px;
-    }
-
-    .program__end{
-        margin-bottom: 50px;
     }

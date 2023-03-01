@@ -2,28 +2,32 @@
     display: none;
 }
 
-#menu {
+#menu{
+        background-color: var(--beige);
+    border: 2px #5d5759 solid;
+}
+
+#menu-list {
     list-style: none; 
 
     padding: 0;
     width: 50%;
-    background-color: var(--beige);
-    border: 2px black solid;
+
 }
 
-#menu li {
+#menu-list li {
     float: left; 
     display: block; 
     padding: 0 1%;
 }
 
-#menu li a {
+#menu-list li a {
     text-decoration: none; 
-    color: #222;
+    color: #5d5759;
 }
 
 @media screen and (min-width: 766px) {
-     #menu {
+     #menu-list {
         display: none;
     }
     .mobile__logo{
@@ -39,15 +43,18 @@
 
 
 
-     #menu {
-        display: flex;
+     #menu-list {
+        margin-left: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 250px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
-     #menu li {
+     #menu-list li {
 
         padding: 5% 0;
         justify-content: center;
@@ -58,15 +65,15 @@
      #menu-button {
         display: block;
         border: none;
-        fill: #000;
+        fill: #5d5759;
         background: transparent;
 
     }
 
     #wrapper{
-        position: relative;
-        top: 30px;
-        left: 30px;
+        position: absolute;
+        top: 10px;
+        left: 5px;
     }
 
     .menu__btn{

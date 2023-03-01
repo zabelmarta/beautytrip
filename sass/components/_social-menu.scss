@@ -1,4 +1,4 @@
-.social {
+.social-menu {
     list-style: none;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 
-.social__link {
+.social-menu__link {
     display: flex;
     width: 80px;
     height: 80px;
@@ -27,40 +27,33 @@
 }
 
 
-.social__link--dark {
+.social-menu__link--dark {
     background-color: #e19683;
     fill: var(--lightBackground);
 }
 
 
-.social__icon {
+.social-menu__icon {
     width: 50px;
     height: 50px;
     vertical-align: middle;
 }
 
-.social-title {
+.social-menu-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: rgb(92, 88, 87);
-    margin: 0;
+    margin: auto;
 }
 
-.social__footer{
+.social-menu__footer{
     display: flex;
     flex-direction: column;
     /* align-items: center;
     justify-content: center; */
     margin-top: 30px;
     
-}
-
-
-@media screen and (max-width: 767px){
-.social__footer{
-    display: none;
-}
 }
