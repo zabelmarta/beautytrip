@@ -27,8 +27,10 @@
 }
 
 @media screen and (min-width: 766px) {
-     #menu-list {
-        display: none;
+    #menu {display: block !important;}
+
+    #menu-list {
+        display: block !important;
     }
     .mobile__logo{
         display: none;
@@ -39,9 +41,9 @@
     }
     }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 766px) {
 
-
+    #menu {display: none;}
 
      #menu-list {
         margin-left: 15px;

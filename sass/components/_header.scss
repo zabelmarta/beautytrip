@@ -78,6 +78,10 @@ justify-content: center;
         bottom: -170px;
         right: -50px;
     }
+
+    .header__list{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px){

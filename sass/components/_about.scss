@@ -15,7 +15,7 @@ width: 500px;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (min-width: 320px){
 
     .about__img{
         display: none;
@@ -23,6 +23,7 @@ width: 500px;
 
     .about__dear{
         margin-left: 25%;
+       
     }
 
     .about__tittle{
@@ -31,4 +32,37 @@ width: 500px;
         font-size: 20px;
     }
 
+
+
+}
+
+@media screen and (min-width: 767px){
+
+
+    .about__dear{
+        margin-left: 25%;
+        padding-top: 150px;
+    }
+
+    .about__tittle{
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1199px){
+
+
+.about__dear{
+    margin-left: 25%;
+    padding-top: 150px;
+}
+
+.about__tittle{
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 20px;
+}
 }
