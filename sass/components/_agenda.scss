@@ -3,11 +3,24 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-max-width: 1200px;
+
 margin: auto;
 
-&__img{
-    max-width: 1200px;
+
 }
 
+@media screen and (max-width: 766px){
+
+    .agenda__img{
+    max-width: 765px;
+    }
+
+}
+
+@media screen and (min-width: 767px){
+
+
+    .agenda__img{
+        max-width: 1200px;
+    }
 }

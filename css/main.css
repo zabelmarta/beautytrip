@@ -238,6 +238,11 @@ body {
   margin-top: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .hotel__map {
+    display: none;
+  }
+}
 .program {
   background-color: #FAF4EF;
   box-shadow: 0 0 20px 10px rgba(92, 88, 87, 0.3019607843);
@@ -296,13 +301,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
   margin: auto;
 }
-.agenda__img {
-  max-width: 1200px;
-}
 
+@media screen and (max-width: 766px) {
+  .agenda__img {
+    max-width: 765px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .agenda__img {
+    max-width: 1200px;
+  }
+}
 .social {
   list-style: none;
   display: flex;
