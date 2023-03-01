@@ -270,6 +270,9 @@ body {
   .hotel__map {
     display: none;
   }
+  .hotel__tittle {
+    font-size: 15px;
+  }
 }
 .program {
   background-color: #FAF4EF;
@@ -328,14 +331,22 @@ body {
 }
 .agenda {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: raw;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 10px;
   margin: auto;
+}
+.agenda__list {
+  background-color: #F8F7F6;
 }
 
 @media screen and (min-width: 320px) {
-  .agenda__img {
+  .agenda {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .agenda__item .agenda__img {
     max-width: 300px;
   }
 }
