@@ -2,13 +2,19 @@
     &__line{
         height: 6px; 
         width: 100%;
-        margin-top: -30px;
+position: absolute;
+top: 50px
+    }
+
+    &__orange{
+        height: 6px; 
+        width: 100%;
+position: relative;
+top: 15px
     }
 }
 
-.line{
-    margin-top: -10px;
-}
+
 
 @media screen and (max-width: 767px){
 

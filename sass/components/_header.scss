@@ -15,9 +15,11 @@ justify-content: center;
     &__list{
         display: flex;
         justify-content: center;
-margin-top: 100px;
-padding-top: 80px;
-background: #E19683;
+        padding-top: 20px ;
+        padding-bottom: 20px;
+        background: #E19683;
+        position: relative;
+        margin-top: 30px;
     }
 
     &__informations{

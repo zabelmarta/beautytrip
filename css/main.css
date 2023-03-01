@@ -88,9 +88,11 @@ body {
 .header__list {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  padding-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #E19683;
+  position: relative;
+  margin-top: 30px;
 }
 .header__informations {
   display: flex;
@@ -735,11 +737,14 @@ body {
 .ornament__line {
   height: 6px;
   width: 100%;
-  margin-top: -30px;
+  position: absolute;
+  top: 50px;
 }
-
-.line {
-  margin-top: -10px;
+.ornament__orange {
+  height: 6px;
+  width: 100%;
+  position: relative;
+  top: 15px;
 }
 
 @media screen and (max-width: 767px) {
