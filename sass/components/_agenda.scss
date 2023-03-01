@@ -9,6 +9,14 @@ margin: auto;
 
 }
 
+@media screen and (min-width: 320px){
+
+    .agenda__img{
+        max-width: 300px;
+    }
+
+}
+
 @media screen and (max-width: 766px){
 
     .agenda__img{
