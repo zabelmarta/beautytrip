@@ -3,7 +3,10 @@
     background-color: #FAF4EF;
     box-shadow: 0 0 20px 10px #5c58574d;
 }    
-
+ 
+.program__list{
+    list-style-type: circle;
+}
 
 @media screen and (max-width: 767px){
 
@@ -63,6 +66,7 @@
             
                 .program__list{
             font-size: 40px;
+            text-align: left;
                 }
             
                 .program__item{
@@ -71,6 +75,7 @@
             
                 .program__end{
                     margin-bottom: 50px;
+                    font-size: 50px;
                 }
 
     }

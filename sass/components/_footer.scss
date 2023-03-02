@@ -65,3 +65,19 @@ height: 150px;
 
 
 }
+@media screen and (min-width: 767px){
+    .footer{
+      
+
+        &__logo{
+width: 200px;
+height: auto;
+        }
+
+        &__address{
+            font-size: 20px;
+            text-align: left;
+        }
+
+}
+}
