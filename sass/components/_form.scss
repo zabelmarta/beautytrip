@@ -1,3 +1,7 @@
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -49,12 +53,15 @@
     transition: 0.3s background-color;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 480px) {
     .form .submit-btn {
         display: block;
         width: 100%;
     }
 }
+
+     #form {display: block !important;}
+
 
 /* ---------------------------------------------------- */
 /* walidacja formularza JS */
@@ -134,7 +141,7 @@
     color:red;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
     .form .send-error {
         text-align:center;
         display: block;
@@ -163,4 +170,9 @@
     color:#888;
     font-weight:normal;
     display: block;
-}
+}  
+
+     #contactForm {display: none;}
+    
+ 
+    

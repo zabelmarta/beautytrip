@@ -3,3 +3,9 @@ $(document).ready(function(){
       $('#menu').stop().slideToggle(300);
     });
   });
+
+  $(document).ready(function(){
+    $('#form-button').click(function(){
+      $('#contactForm').stop().slideToggle(300);
+    });
+  });

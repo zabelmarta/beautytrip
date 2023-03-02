@@ -224,6 +224,9 @@ body {
     padding-right: 45px;
     font-size: 20px;
   }
+  .about__img {
+    display: block;
+  }
 }
 @media screen and (min-width: 1199px) {
   .about__dear {
@@ -381,9 +384,6 @@ td {
   .agenda__img {
     max-width: 765px;
   }
-  .agenda__tittle {
-    max-width: 720px;
-  }
   .agenda__list {
     font-size: 13px;
   }
@@ -505,6 +505,10 @@ td {
   letter-spacing: 0.03em;
   color: rgb(92, 88, 87);
   margin: 0px;
+}
+.footer__paragraf {
+  text-decoration: none;
+  color: rgb(92, 88, 87);
 }
 .footer__logo {
   width: 200px;
@@ -730,12 +734,16 @@ td {
   transition: 0.3s background-color;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 480px) {
   .form .submit-btn {
     display: block;
     width: 100%;
   }
 }
+#form {
+  display: block !important;
+}
+
 /* ---------------------------------------------------- */
 /* walidacja formularza JS */
 /* ---------------------------------------------------- */
@@ -810,7 +818,7 @@ td {
   color: red;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .form .send-error {
     text-align: center;
     display: block;
@@ -838,6 +846,10 @@ td {
   color: #888;
   font-weight: normal;
   display: block;
+}
+
+#contactForm {
+  display: none;
 }
 
 .ornament__line {
