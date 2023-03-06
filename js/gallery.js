@@ -9,7 +9,7 @@
     selectPin( newNumber );
 }
 
- for (let numerPinu = 1; numerPinu <= 5; numerPinu++) {
+ for (let numerPinu = 1; numerPinu <= 14; numerPinu++) {
     document
       .querySelector('#pin' + numerPinu)
       .addEventListener( 'click', function () {
@@ -25,7 +25,7 @@ document.querySelector( '#pin' + currentNumber ).classList.add( 'selected' );
 
  function showNextSlide( ) {
     let newNumber = currentNumber + 1;
-    if( newNumber > 5 ) {
+    if( newNumber > 14 ) {
       newNumber = 1;
     }
     showSlide( newNumber );
