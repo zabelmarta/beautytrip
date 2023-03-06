@@ -437,7 +437,7 @@ nav ul > li button.selected {
   opacity: 1;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .pin {
     display: none;
   }
