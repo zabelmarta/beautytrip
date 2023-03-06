@@ -159,13 +159,13 @@
   }
 
 
-  @media screen and (min-width: 320px){
+  @media screen and (max-width: 320px){
     .pin{
         display: none;
     }
       }
 
-  @media screen and (min-width: 480px){
+  @media screen and (max-width: 480px){
 .pin{
     display: none;
 }
