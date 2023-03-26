@@ -225,7 +225,7 @@ body {
     font-size: 20px;
   }
   .about__img {
-    display: block;
+    display: none;
   }
 }
 @media screen and (min-width: 1199px) {
@@ -237,6 +237,9 @@ body {
     padding-left: 45px;
     padding-right: 45px;
     font-size: 20px;
+  }
+  .about__img {
+    display: block;
   }
 }
 .hotel {

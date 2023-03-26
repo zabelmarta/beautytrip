@@ -50,7 +50,7 @@ width: 500px;
         font-size: 20px;
     }
     .about__img{
-        display: block;
+        display: none;
     }
 }
 
@@ -66,5 +66,9 @@ width: 500px;
     padding-left: 45px;
     padding-right: 45px;
     font-size: 20px;
+}
+
+.about__img{
+    display: block;
 }
 }
