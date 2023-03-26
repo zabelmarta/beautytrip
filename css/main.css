@@ -92,7 +92,7 @@ body {
   padding-bottom: 20px;
   background: #E19683;
   position: relative;
-  margin-top: 30px;
+  margin-top: 85px;
 }
 .header__informations {
   display: flex;
@@ -231,7 +231,7 @@ body {
 @media screen and (min-width: 1199px) {
   .about__dear {
     margin-left: 25%;
-    padding-top: 150px;
+    padding-top: 0px;
   }
   .about__tittle {
     padding-left: 45px;
